@@ -1,0 +1,1 @@
+INSERT INTO mastnaildb.USER VALUES (1,'Kate', 'Stankevich','Ticon', '2827649ticon');

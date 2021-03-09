@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/MASTNAIL
+    driver-class-name: org.postgresql.Driver
+    hikari:
+      schema: mastnaildb
+      username: postgres
+      password: 2827649
+  jpa:
+    database-platform: org.hibernate.dialect.PostgreSQL10Dialect
+server:
+  port: 8082
