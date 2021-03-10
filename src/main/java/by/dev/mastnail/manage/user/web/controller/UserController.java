@@ -20,6 +20,6 @@ public class UserController {
     @PostMapping
     public UserResponse registerUser(@RequestBody UserParam userParam) {
         var user = userFacadeService.registerUser(userParam);
-        return userWebConverter.toUserResponse(user);//TODO: переделать с учетом UserParam на уровне всех слоев
+        return userWebConverter.toUserResponse(user);
     }
 }

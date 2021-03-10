@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component;
 public class UserRepositoryConverter {
 
     private final ModelMapper modelMapper;
+
     public User toModel (UserEntity userEntity) {
         return modelMapper.map(userEntity, User.class);
     }
