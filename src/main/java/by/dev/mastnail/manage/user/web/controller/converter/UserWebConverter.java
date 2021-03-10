@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserWebConverter {
 
-    private static ModelMapper modelMapper;
+    private final ModelMapper modelMapper;
 
     public UserResponse toUserResponse(User user) {
         return modelMapper.map(user, UserResponse.class);
