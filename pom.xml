@@ -14,7 +14,7 @@
     <name>mastnail</name>
     <description>Platform for coaching services and nail training courses</description>
     <properties>
-        <java.version>14</java.version>
+        <java.version>11</java.version>
     </properties>
 
     <profiles>
