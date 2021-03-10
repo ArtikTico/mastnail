@@ -1,16 +1,8 @@
-package by.dev.mastnail.manage.user.model;
-
-import lombok.AllArgsConstructor;
-import lombok.Data;
-import lombok.NoArgsConstructor;
+package by.dev.mastnail.manage.user.param;
 
 import javax.validation.constraints.NotNull;
 
-@Data
-@AllArgsConstructor
-@NoArgsConstructor
-public class User {
-
+public class UserParam {
     @NotNull
     private Long id;
 

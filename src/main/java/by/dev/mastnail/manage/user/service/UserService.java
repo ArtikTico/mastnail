@@ -1,8 +1,9 @@
 package by.dev.mastnail.manage.user.service;
 
-import by.dev.mastnail.manage.user.repository.entity.UserEntity;
+import by.dev.mastnail.manage.user.model.User;
+import by.dev.mastnail.manage.user.param.UserParam;
 
 public interface UserService {
 
-    UserEntity registerUser(UserEntity user);
+    User registerUser(UserParam userParam);
 }
